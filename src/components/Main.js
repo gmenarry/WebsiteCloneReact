@@ -4,6 +4,12 @@ import two from '../images/2.jpg'
 import three from '../images/3.jpg'
 import four from '../images/4.jpg'
 import five from '../images/5.jpg'
+import six from '../images/44.jpg'
+import seven from '../images/34.jpg'
+import eight from '../images/12.jpg'
+import nine from '../images/home1.png'
+import ten from '../images/home2.png'
+import eleven from '../images/home3.png'
 
 class Main extends Component {
     render() {
@@ -28,6 +34,16 @@ class Main extends Component {
                         <b className="caseStudy">CASE STUDIES</b>
                     </span>
                 </div>
+                <span className="caseImg">
+                <img src={six}></img>
+                <img src={eight}></img>
+                <img src={seven}></img>
+                </span>
+                <span className="otherLogo">
+                <img src={nine}></img>
+                <img src={ten}></img>
+                <img src={eleven}></img>
+                </span>
             </div>
         )
     }

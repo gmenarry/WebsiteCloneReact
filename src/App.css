@@ -177,3 +177,61 @@ hr {
 .allCaseStudy {
   text-align: center;
 }
+
+.caseImg{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.otherLogo{
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.3;
+}
+
+.footer{
+  background-color: #F5A416;
+    z-index: -5;
+    height: 17em;
+    padding-top: 3em
+
+}
+.about{
+  font-weight: 700;
+  font-size: 25px;
+  color: #FEEF5F;
+  margin-left: 3%;
+}
+.contact{
+  font-weight: 700;
+  font-size: 25px;
+  color: #FEEF5F;
+  margin-left: 12%
+}
+.title b{
+  padding-left: .8em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+}
+.list2{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.allList{
+display: flex;
+color: #fff;
+font-family: inherit;
+font-family: "neuzeit-grotesk", sans-serif;
+font-size: 1.5em;
+font-weight: 300;
+}
